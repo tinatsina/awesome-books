@@ -6,5 +6,3 @@ import bookOnClick from '../modules/bookListOnClick.js';
 bookList(getLocalStorage());
 switchPage();
 bookOnClick();
-
-console.log(getLocalStorage());
