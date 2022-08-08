@@ -3,8 +3,9 @@ import getLocalStorage from '../modules/loadStorage.js';
 import bookList from '../modules/bookList.js';
 import switchPage from '../modules/pageChange.js';
 import bookOnClick from '../modules/bookListOnClick.js';
+import datePoster from '../modules/datePoster.js';
 
-console.log(DateTime.now());
+datePoster(DateTime.now().toLocaleString(DateTime.DATETIME_MED));
 bookList(getLocalStorage());
 switchPage();
 bookOnClick();

@@ -4,6 +4,13 @@
   padding: 1em;
 }
 
+.date-time-luxon {
+  float: right;
+  font-size: larger;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
 .books-card {
   border: 2px solid black;
   display: flex;
